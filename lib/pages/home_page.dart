@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
             labelTextStyle: MaterialStateProperty.all(
                 const TextStyle(fontSize: 14, fontWeight: FontWeight.w500))),
         child: NavigationBar(
-          height: 70,
+          height: 48,
           destinations: [
             Stack(
               children: [
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                     icon: Icon(Icons.email_outlined),
                     label: 'Mail'),
                 Positioned(
-                  top: 16.0,
+                  top: 4.0,
                   left: 52.0,
                   child: Container(
                     padding:
